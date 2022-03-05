@@ -1,3 +1,4 @@
+import time
 from pypresence import Presence
 
 client_id = "926421445213552702"
