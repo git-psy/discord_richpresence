@@ -1,4 +1,3 @@
-import time
 from pypresence import Presence
 
 client_id = "926421445213552702"
@@ -14,9 +13,10 @@ def test():
                 details="Bijour,",
                 state="Et toi, ca vas ?",
                 small_image="small_image",
-                small_text="Ca c'est spotify",
+                small_text="Musique !",
                 large_image = "large_image",
                 large_text="Html, le language de base pour créer un site web...")
+
         except:
             rpc.connect()
             rpc.update(buttons=[
@@ -27,7 +27,7 @@ def test():
                 details="Bijour,",
                 state="Et toi, ca vas ?",
                 small_image="small_image",
-                small_text="Ca c'est spotify",
+                small_text="Musique !",
                 large_image = "large_image",
                 large_text="Html, le language de base pour créer un site web...")
     except:pass
